@@ -1,5 +1,18 @@
-WorkFlow:
-
+Invoice Process:
+	Upload invoice
+	Image converter 
+	Import service
+	Export Service
+	Abby completion
+		Vendor completion
+		Secoundary Vendor
+		
 
 
 Statment:
+	Status
+	Upload statement
+	DEO - Page Seperation completion
+	EDO - Statement added invoice - like date / doc no (invoice no) / amount  - each doc number as invoiced
+	Tenant - Existing invoice map above mentioned column then status is matched else un-matched - (this process is recuncile)
+	
