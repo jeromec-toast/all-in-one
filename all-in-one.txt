@@ -1,4 +1,4 @@
-Invoice Process:
+Invoice Flow:
 	Upload invoice
 	Image converter 
 	Import service
@@ -7,7 +7,47 @@ Invoice Process:
 		Vendor completion
 		Secoundary Vendor
 		
+Invoice Process:
+	Exception
+	Invoice Exception 
+		The product description is empty
+		Invoice amount mismatch detected
+		Purchase price exceeds contracted price
+		Price variance detected in one or more line items in the invoice
+		Summary Detail-Conflict
+		Vendor not assigned
+		Possible Duplicate
+		Duplicate invoice found
+		Reprocess due to preference change
+		Vendor notes exists
+		Payment terms not assigned
+		Payment method mandatory
+		Vendor not available
+		Invoice Review
+		PO# not available
+		Credit Memo Exception
+		Closed accounting cycle
+		Waiting for Xtrachef
+		Waiting for tenant action
+		Vendor payment term not assigned
+		Same product detected
+		A new or unassigned product found
+		Missing vendor code
+		Invalid invoice number
+		Zero dollar invoice
+		Summary Invoice
+		Requires Custom Item Handling
+		Request vendor change
+		Manual Exception
 
+	Invoice Calculation
+		GLs - 
+		Category - 
+		Fright Charges -
+		Discount - 
+		Tax -
+		Other 
+		Fuel Charges-
 
 Statment:
 	Status

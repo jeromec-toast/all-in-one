@@ -23,6 +23,7 @@
             "rating": 1,
             "active": true,
             "trending": 1,
+            "userBuyCount": 50,
             "imageName": "apple.jpg",
             "imagePath": "url"
         }
@@ -247,6 +248,7 @@
     "orderGuide": [
         {
             "orderId": 1,
+            "orderReference": "HIM001",
             "userId": 1,
             "quantity": 20,
             "price": 400,
