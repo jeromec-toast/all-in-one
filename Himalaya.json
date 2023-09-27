@@ -85,6 +85,28 @@
             "status": 1
         }
     ],
+    "userRole": [
+        {
+            "roleId": 1,
+            "role": "System Admin",
+            "acitive": true
+        },
+        {
+            "roleId": 2,
+            "role": "Tenant Admin",
+            "acitive": true
+        },
+        {
+            "roleId": 3,
+            "role": "Product Manager",
+            "acitive": true
+        },
+        {
+            "roleId": 4,
+            "role": "User",
+            "acitive": true
+        }
+    ],
     "userStatus": [
         {
             "id": 1,
