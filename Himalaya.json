@@ -27,6 +27,18 @@
             "imagePath": "url"
         }
     ],
+    "productImage": [
+        {
+            "imageId": 1,
+            "productId": 1,
+            "imageUrl": "image"
+        },
+        {
+            "imageId": 2,
+            "productId": 1,
+            "imageUrl": "image1"
+        }
+    ],
     "trendingMaster": [
         {
             "trendingId": 1,
@@ -65,6 +77,10 @@
             "pinCode": "606755",
             "phoneNo": "9025020273",
             "alternativeNo": "9025020273",
+            "created": "date",
+            "modified": "date",
+            "lastLogin": "date",
+            "profile": "image",
             "active": true,
             "status": 1
         }
