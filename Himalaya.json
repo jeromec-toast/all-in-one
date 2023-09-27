@@ -230,6 +230,8 @@
             "price": 400,
             "total": 450,
             "delevery": 50,
+            "createdOn": "date",
+            "status": 1,
             "products": [
                 {
                     "productId": 1,
@@ -240,6 +242,33 @@
                     "quantity": 4
                 }
             ]
+        }
+    ],
+    "orderStatus": [
+        {
+            "orderStatusId": 1,
+            "status": "Ready for dispatch",
+            "active": true
+        },
+        {
+            "orderStatusId": 2,
+            "status": "Dispatched",
+            "active": true
+        },
+        {
+            "orderStatusId": 3,
+            "status": "Transisting",
+            "active": true
+        },
+        {
+            "orderStatusId": 4,
+            "status": "Delivered",
+            "active": true
+        },
+        {
+            "orderStatusId": 5,
+            "status": "Order Complete",
+            "active": true
         }
     ],
     "productCart": [
