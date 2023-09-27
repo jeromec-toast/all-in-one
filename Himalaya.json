@@ -1,0 +1,244 @@
+{
+    "productList": [
+        {
+            "productId": 1,
+            "productName": "Apple",
+            "productDescription": "Apple",
+            "Quantity": 50,
+            "price": 100,
+            "category": 1,
+            "rating": 4,
+            "active": true,
+            "trendingId": 1
+        }
+    ],
+    "productMaster": [
+        {
+            "productId": 1,
+            "productName": "Apple",
+            "productDescription": "Ooty Apple",
+            "Quantity": 100,
+            "price": 200,
+            "categrory": 1,
+            "rating": 1,
+            "active": true,
+            "trending": 1,
+            "imageName": "apple.jpg",
+            "imagePath": "url"
+        }
+    ],
+    "trendingMaster": [
+        {
+            "trendingId": 1,
+            "trentingName": "Sale",
+            "active": true
+        },
+        {
+            "trendingId": 2,
+            "trentingName": "New",
+            "active": true
+        },
+        {
+            "trendingId": 3,
+            "trentingName": "Sale",
+            "active": true
+        }
+    ],
+    "userWishlist": [
+        {
+            "id": 1,
+            "userId": 10,
+            "productId": 1
+        }
+    ],
+    "user": [
+        {
+            "userId": 1,
+            "userName": "Jerome",
+            "emailId": "jeromec252@gmail.com",
+            "gender": 1,
+            "doorNo": "No 1133",
+            "street": "Church Street",
+            "city": "Thiruvannanamalai",
+            "place": "Avoor",
+            "pinCode": "606755",
+            "phoneNo": "9025020273",
+            "alternativeNo": "9025020273",
+            "active": true,
+            "status": 1
+        }
+    ],
+    "userStatus": [
+        {
+            "id": 1,
+            "statusName": "Silver",
+            "active": true
+        },
+        {
+            "id": 2,
+            "statusName": "Gold",
+            "active": true
+        },
+        {
+            "id": 3,
+            "statusName": "Platinam",
+            "active": true
+        }
+    ],
+    "productRating": [
+        {
+            "ratingId": 1,
+            "userId": 1,
+            "rating": 4,
+            "comment": "nice product, worth for it"
+        },
+        {
+            "ratingId": 2,
+            "userId": 2,
+            "rating": 3,
+            "comment": ""
+        }
+    ],
+    "categoryMaster": [
+        {
+            "categoryId": 1,
+            "categoryName": "Brinjal",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 2,
+            "categoryName": "Chilli",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 3,
+            "categoryName": "Green",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 4,
+            "categoryName": "Herbs",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 5,
+            "categoryName": "Tomatoes",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 6,
+            "categoryName": "Gourds",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 7,
+            "categoryName": "Flowers",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 8,
+            "categoryName": "Fruits",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 9,
+            "categoryName": "Green",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 10,
+            "categoryName": "Radish",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 11,
+            "categoryName": "Beans",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 12,
+            "categoryName": "Spinach",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 13,
+            "categoryName": "Radish",
+            "mainCategory": 1,
+            "active": true
+        }
+    ],
+    "mainCategroy": [
+        {
+            "mainCategoryId": 1,
+            "categoryName": "Seed",
+            "active": true,
+            "image": ""
+        },
+        {
+            "mainCategoryId": 2,
+            "categoryName": "Tubers",
+            "active": true,
+            "image": ""
+        },
+        {
+            "mainCategoryId": 3,
+            "categoryName": "Plants",
+            "active": true,
+            "image": ""
+        },
+        {
+            "mainCategoryId": 4,
+            "categoryName": "Others",
+            "active": true,
+            "image": ""
+        }
+    ],
+    "orderGuide": [
+        {
+            "orderId": 1,
+            "userId": 1,
+            "quantity": 20,
+            "price": 400,
+            "total": 450,
+            "delevery": 50,
+            "products": [
+                {
+                    "productId": 1,
+                    "quantity": 3
+                },
+                {
+                    "productId": 2,
+                    "quantity": 4
+                }
+            ]
+        }
+    ],
+    "productCart": [
+        {
+            "cartId": 1,
+            "userId": 1,
+            "products": [
+                {
+                    "productId": 1,
+                    "quantity": 3
+                },
+                {
+                    "productId": 2,
+                    "quantity": 4
+                }
+            ]
+        }
+    ]
+}
