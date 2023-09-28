@@ -291,7 +291,7 @@
         "active": true
     }
 ],
-"productCart": [
+"productUserCart": [
     {
         "cartId": 1,
         "userId": 1,
