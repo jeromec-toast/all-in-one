@@ -17,15 +17,27 @@
             "productId": 1,
             "productName": "Apple",
             "productDescription": "Ooty Apple",
+            "productCode": "app001",
+            "fullDescription": "",
+            "specification": "",
+            "story": "",
+            "packQuantity": 10,
             "Quantity": 100,
             "price": 200,
             "categrory": 1,
             "rating": 1,
             "active": true,
-            "trending": 1,
+            "trending": "1-Sale, 2,-New, 3-Trending",
             "userBuyCount": 50,
             "imageName": "apple.jpg",
-            "imagePath": "url"
+            "imagePath": "url",
+            "return": "1 - Non-returnable, 0 - Returnable",
+            "tags": "1-Thottam Siva, 2-Organic Seed, 3-Native Seed, 4-Hybrid Seed",
+            "cteated": "date",
+            "modified": "date",
+            "stock": "1- In stock, 0 - Out of stock",
+            "deleveryDate": 5,
+            "offer": "50%"
         }
     ],
     "productImage": [
@@ -38,23 +50,6 @@
             "imageId": 2,
             "productId": 1,
             "imageUrl": "image1"
-        }
-    ],
-    "trendingMaster": [
-        {
-            "trendingId": 1,
-            "trentingName": "Sale",
-            "active": true
-        },
-        {
-            "trendingId": 2,
-            "trentingName": "New",
-            "active": true
-        },
-        {
-            "trendingId": 3,
-            "trentingName": "Sale",
-            "active": true
         }
     ],
     "userWishlist": [
@@ -83,6 +78,7 @@
             "lastLogin": "date",
             "profile": "image",
             "active": true,
+            "coupponId": 1,
             "status": 1
         }
     ],
@@ -271,12 +267,12 @@
     "orderStatus": [
         {
             "orderStatusId": 1,
-            "status": "Ready for dispatch",
+            "status": "Ready for shipping",
             "active": true
         },
         {
             "orderStatusId": 2,
-            "status": "Dispatched",
+            "status": "Shipped",
             "active": true
         },
         {
@@ -309,6 +305,37 @@
                     "quantity": 4
                 }
             ]
+        }
+    ],
+    "productFeedback": [
+        {
+            "id": 1,
+            "productId": 1,
+            "questionAns": "",
+            "review": "",
+            "userId": 1
+        }
+    ],
+    "couponMaster": [
+        {
+            "coupponId": 1,
+            "couppon": "summar",
+            "code": "SUM50",
+            "amount": 50,
+            "acitive": true
+        },
+        {
+            "coupponId": 2,
+            "couppon": "New user",
+            "code": "NEW100",
+            "amount": 100,
+            "acitive": true
+        }
+    ],
+    "userNotificationMaster": [
+        {
+            "id": 1,
+            "notificationName": "name"
         }
     ]
 }
