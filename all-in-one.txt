@@ -140,3 +140,15 @@ Statment:
 	EDO - Statement added invoice - like date / doc no (invoice no) / amount  - each doc number as invoiced
 	Tenant - Existing invoice map above mentioned column then status is matched else un-matched - (this process is recuncile)
 	
+Invoice Vendor ProductCode:
+	1. XCG-101 - Purchase Summary - meaning disssue papper, water can some extra product as line item
+	2. XCG-102 - Duplicate
+	IF RTRIM(LTRIM(@ARTICLENUMBER_IP)) IN('XCG-101','XCKD-101','XCD-101','XCKR-101','XCRV-101')
+    BEGIN
+		SELECT @DESCRIPTION_IP=(CASE WHEN RTRIM(LTRIM(@ARTICLENUMBER_IP))='XCG-101' THEN 'PURCHASE SUMMARY'
+									 WHEN RTRIM(LTRIM(@ARTICLENUMBER_IP))='XCKD-101' THEN 'Keg Deposit'
+									 WHEN RTRIM(LTRIM(@ARTICLENUMBER_IP))='XCD-101' THEN 'Deposit On Above Item'
+									 WHEN RTRIM(LTRIM(@ARTICLENUMBER_IP))='XCKR-101' THEN 'Keg Return'
+									 WHEN RTRIM(LTRIM(@ARTICLENUMBER_IP))='XCRV-101' THEN 'CRV'
+									 ELSE @DESCRIPTION_IP END)
+    END
