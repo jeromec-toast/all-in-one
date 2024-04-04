@@ -26,6 +26,12 @@ DEO - Data Entry Operator:
 		-- when it is come 
 		-- when hightlitted as red font
 		-- what they doing in product config
+	Invoice Data Entry Processing
+	Vendor review waiting - workflow will sent or mananually will operator?
+	Vendor review processing - ?
+	Product Review waiting
+	Product duplicate waiting
+	
 
 	Vendor Merge:
 		-- when doing the vendor merge
@@ -74,6 +80,10 @@ Tenant Admin:
 	Vendor Hub:
 		-- This is for tenant vendor configuration
 		-- Here we set payment term and update vendor code
+		-- Payment method - how using and with ex:
+		-- Payment term  - how using and witn ex:
+		-- Vendor Product code and vendor product code.
+		-- Which are the type they are pay the amount to customer?
 	
 	Product Catalog:
 
@@ -174,5 +184,35 @@ Detail Know the Invoice-Map-item
 
 Will sync recipe third party extract.
 
+UOM, SizeUnit, Item Uom:
+	How it is using for the product 
+	Three example for the uom - descrip the product.
+	Group purpose
 
+Setting Icon:
+	Cost Centre
+	Approval Rule
+	Rejection Rule
+	Cogs group
+	Classes
+ 	Labor
+Price tracker:?
+Budget:
+	Buget type
+	52 Period (5-4-4)
+	52 Period (4-5-4)
+	52 Period (4-4-4)
+	13 4-Weeks period
+	12 calendar month
+	budget using what will doing now
+Operating Summary:
 
+Abby:
+Credit And returns?
+Sentt to manual exception
+sub total
+split flag concept
+Catch weight
+Adtional quantity
+Dep
+sizenumeric
