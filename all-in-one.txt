@@ -132,6 +132,7 @@ Tenant Admin:
 		Other 
 		Fuel Charges-
 		cogs-
+		category
 
 Statment:
 	Status
@@ -152,3 +153,26 @@ Invoice Vendor ProductCode:
 									 WHEN RTRIM(LTRIM(@ARTICLENUMBER_IP))='XCRV-101' THEN 'CRV'
 									 ELSE @DESCRIPTION_IP END)
     END
+
+Purchase Summary:
+	XCG-101 - Purchase summry meaning
+	non purchse summary meaning
+
+Invoice Type:
+	Receipt
+	Invoice 
+	Credit memo
+	Negative Invoice
+
+Vendor Exclude Product:
+	Don't check duplicate
+	How using in edi invoice
+
+Extract:
+
+Detail Know the Invoice-Map-item
+
+Will sync recipe third party extract.
+
+
+
