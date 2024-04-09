@@ -216,3 +216,10 @@ Catch weight
 Adtional quantity
 Dep
 sizenumeric
+
+
+White list domain:
+domain listed
+user registered
+attachment
+invalid orginator
