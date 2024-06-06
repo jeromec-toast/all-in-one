@@ -223,3 +223,26 @@ domain listed
 user registered
 attachment
 invalid orginator
+
+refund
+adjesment
+credit
+negative invoice
+payment method
+payment term
+
+payment method - default payment term
+payment term - 
+credit
+receipt
+credit memo
+gl, category purpose of product
+item map, 
+dupilicate product,
+product verification
+uom, size unit, item uom
+pack, quantity, unit cost, size
+budget type and cogs,
+extract monitor credit amount/mins amount,
+approval
+DEO - Merge product memu
