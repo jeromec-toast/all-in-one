@@ -246,3 +246,8 @@ budget type and cogs,
 extract monitor credit amount/mins amount,
 approval
 DEO - Merge product memu
+error by operator invoice in data entry Page
+
+batch invoice upload why not showing in application
+quicbook onlie and qbd desktop diffrent and purpose of using
+why using extract and purpose of using extarct for customer

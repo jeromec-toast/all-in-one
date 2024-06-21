@@ -1,0 +1,6 @@
+Memo:
+---------
+Skip re rendering the component 
+Increase the performance of the component
+This technique minimise the usage of memory and time
+It is working by sorting the last computed value or object from the function
