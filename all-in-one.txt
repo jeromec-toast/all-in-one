@@ -11,14 +11,27 @@ Invoice Process:
 DEO - Data Entry Operator:
 	Exception
 	Duplicate Product
-		-- when  come to the queue
-		-- what thery are do the product
+		-- when come to the queue (within threhold, this is for global, tenat specofig, product code
+									description or vendor location, how choosing target and source)
+		-- what they are do the product
 		-- what is Source 
 		-- what is Target
 		-- how do we merge the product
 	
-	Internal Procuct verification:
-		-- when it is come 
+	Internal Product verification:(internal and tenant)
+		-- explain the pack,
+			size,
+			unit,
+			uom,
+			size unit,
+			catch weight, 
+			spilt indiacator
+			Reviw by tenant,
+			white list not
+			eg1:
+			eg2:
+		-- when it is come
+		-- tenant config - both and Xtrachef default one? 
 		-- when hightlitted as red font
 		-- what they doing in product config
 	
@@ -39,16 +52,30 @@ DEO - Data Entry Operator:
 			-- Table level changes
 	
 	Merge Product:
+		-- Merge will happened in tenant location, vendor correct
+		-- How reflected in the pages, item mapping, invoie level changes.
 		-- Why merge the product
 		-- how we can merge the product
-			-- Table level changes
+		-- Table level changes
 
 	Tenant Notes:
 		-- Here we can add tenant level notes
 		-- vendor level notes / tenant vendor or global vendor
 		-- purpose add notes / where we can see the notes
 	 
-	 Global Product Review:
+	 Global Product Review:?
+	 What the scinario have threshold value.
+	 Rebates.
+	 Operating summary page	
+	 	-- Revinue
+		-- cogs
+		-- Prime cost
+		-- Gross profit
+		-- Operating cost
+		-- Net profit
+	Reconciltion Menu
+		-- show batch wise invoie.
+	Tenant Group?		
 
 	 Global Vendor Mapping:
 	 	-- How relatted to the EDI
@@ -63,12 +90,15 @@ Tenant Admin:
 		-- what is cogs group
 		-- how related to the invoice
 	
-	Map Invoice Item:
+	Map Invoice Item: 
+		-- why mapping this for the only extract?
+		-- after mapping how extracted to customer and eg:
 		-- what is invoice item  - line item?
 		-- why mapping invoice item to the category 
 		-- where it is using to the mapping - extract?or?
 	
 	Approval:
+		-- why do this approval queue? extra checking do for invoice.
 		-- approval we where crating the rule the invice go to the queue
 		-- we need to enable this for tenant.
 		-- here we where validating the invoice ex. amount > 0 ext.
@@ -86,7 +116,7 @@ Tenant Admin:
 		-- Which are the type they are pay the amount to customer?
 	
 	Product Catalog:
-
+		--
 
 	Extract:
 		-- Try to know how extract the invoice to the all the mapped with info
@@ -99,9 +129,7 @@ Tenant Admin:
 	
 	Categories:
 		-- 
-	
-	
-
+		
 	Invoice Exception 
 		The product description is empty
 		Invoice amount mismatch detected
@@ -145,6 +173,10 @@ Tenant Admin:
 		category
 
 Statment:
+	purpose of statement?
+	what i page seperation?
+	grid row click - data entry there.
+	move to invoice
 	Status
 	Upload statement
 	DEO - Page Seperation completion
@@ -178,7 +210,9 @@ Vendor Exclude Product:
 	Don't check duplicate
 	How using in edi invoice
 
-Extract:
+What xtracash?
+Error by exception operator?
+move statement
 
 Detail Know the Invoice-Map-item
 
@@ -209,7 +243,7 @@ Operating Summary:
 
 Abby:
 Credit And returns?
-Sentt to manual exception
+Sent to manual exception
 sub total
 split flag concept
 Catch weight
@@ -251,3 +285,5 @@ error by operator invoice in data entry Page
 batch invoice upload why not showing in application
 quicbook onlie and qbd desktop diffrent and purpose of using
 why using extract and purpose of using extarct for customer
+
+Statement
